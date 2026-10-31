@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lune Atelier | Modern Clothing</title>
+    <meta
+      name="description"
+      content="Lune Atelier brings elevated essentials, contemporary silhouettes, and refined textures for everyday luxury."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar glass-panel">
+        <div class="brand" aria-label="Lune Atelier home">
+          <span class="brand-mark">L</span>
+          <span class="brand-text">Lune Atelier</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#new-arrivals">New arrivals</a>
+          <a href="#collections">Collections</a>
+          <a href="#journal">Journal</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-button" aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.93 12.65l4.55 4.55 1.41-1.41-4.55-4.55A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
+          </button>
+          <button class="icon-button cart-button" aria-label="Shopping bag">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V7a5 5 0 0 1 10 0v2h2.5l-1 11H5.5l-1-11H7Zm2 0h6V7a3 3 0 0 0-6 0v2Z"/></svg>
+            <span>Bag</span>
+          </button>
+          <button class="menu-toggle" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=80"
+          >
+            <source src="https://videos.pexels.com/video-files/3195394/3195394-hd_1920_1080.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-overlay"></div>
+
+          <div class="hero-content">
+            <p class="eyebrow">Fall / Winter 2026</p>
+            <h1>Wear the mood. Own the moment.</h1>
+            <p class="hero-copy">
+              Thoughtful layers, fluid silhouettes, and premium textures designed for everyday freedom.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#new-arrivals" class="primary-btn">Shop collection</a>
+              <a href="#journal" class="secondary-btn">Watch film</a>
+            </div>
+
+            <div class="hero-metrics" aria-label="Brand stats">
+              <div>
+                <strong>120k+</strong>
+                <span>happy clients</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>average review</span>
+              </div>
+              <div>
+                <strong>48h</strong>
+                <span>dispatch time</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="floating-card glass-panel" aria-label="Featured product card">
+            <div class="mini-label">Featured</div>
+            <div class="product-preview">
+              <img
+                src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80"
+                alt="Model wearing a neutral trench coat"
+              />
+            </div>
+            <div class="card-meta">
+              <div>
+                <p>Monarch Trench</p>
+                <span>Soft wool blend</span>
+              </div>
+              <strong>$249</strong>
+            </div>
+          </aside>
+        </section>
+
+        <section class="featured" id="new-arrivals">
+          <div class="section-head">
+            <p class="eyebrow dark">New arrivals</p>
+            <h2>Curated essentials for modern life.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card glass-panel">
+              <span>01</span>
+              <h3>Quiet luxury</h3>
+              <p>Elevated textures and effortless staples designed to layer beautifully.</p>
+            </article>
+            <article class="feature-card glass-panel">
+              <span>02</span>
+              <h3>Better fit</h3>
+              <p>Silhouettes built for movement, comfort, and polish from day to night.</p>
+            </article>
+            <article class="feature-card glass-panel">
+              <span>03</span>
+              <h3>Slow fashion</h3>
+              <p>Small-batch collections created with timeless design and lasting quality.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="products" id="collections">
+          <div class="section-head split-head">
+            <div>
+              <p class="eyebrow dark">Best sellers</p>
+              <h2>Made for everyday expression.</h2>
+            </div>
+            <a href="#contact" class="text-link">View all</a>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-item">
+              <div class="product-image image-one"></div>
+              <div class="product-info">
+                <div>
+                  <h3>Nova Knit</h3>
+                  <p>Soft-touch knitwear</p>
+                </div>
+                <strong>$118</strong>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="product-image image-two"></div>
+              <div class="product-info">
+                <div>
+                  <h3>Harbor Coat</h3>
+                  <p>Structured outerwear</p>
+                </div>
+                <strong>$232</strong>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="product-image image-three"></div>
+              <div class="product-info">
+                <div>
+                  <h3>Aster Set</h3>
+                  <p>Minimal layered edit</p>
+                </div>
+                <strong>$164</strong>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="product-image image-four"></div>
+              <div class="product-info">
+                <div>
+                  <h3>Horizon Blazer</h3>
+                  <p>Tailored essentials</p>
+                </div>
+                <strong>$188</strong>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="story" id="journal">
+          <div class="story-visual">
+            <img
+              src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80"
+              alt="Fashion editorial shot in a minimal studio"
+            />
+          </div>
+
+          <div class="story-copy glass-panel">
+            <p class="eyebrow dark">Our story</p>
+            <h2>Designed to move through your day with ease.</h2>
+            <p>
+              We blend tactile fabrics, modern cuts, and thoughtful detailing to create silhouettes that feel personal,
+              elevated, and endlessly wearable.
+            </p>
+            <ul>
+              <li>Premium natural fibers and eco-conscious production</li>
+              <li>Limited runs built for a smaller, better wardrobe</li>
+              <li>Free shipping and easy 30-day returns</li>
+            </ul>
+            <a href="#contact" class="primary-btn">Read the journal</a>
+          </div>
+        </section>
+
+        <section class="newsletter glass-panel" id="contact">
+          <div>
+            <p class="eyebrow dark">Stay in the loop</p>
+            <h2>Get early access to new drops and exclusive offers.</h2>
+          </div>
+
+          <form class="signup-form">
+            <label class="sr-only" for="email">Email address</label>
+            <input id="email" type="email" placeholder="Enter your email" />
+            <button type="submit" class="primary-btn">Join now</button>
+          </form>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-brand">
+          <span class="brand-mark">L</span>
+          <span class="brand-text">Lune Atelier</span>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#collections">Shop</a>
+          <a href="#journal">Journal</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p>© <span id="year"></span> Lune Atelier</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
